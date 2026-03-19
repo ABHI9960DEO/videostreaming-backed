@@ -1,4 +1,4 @@
-package com.videostreamingbackend.config;
+package com.videostreamingbackend.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;
