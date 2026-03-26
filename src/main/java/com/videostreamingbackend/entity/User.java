@@ -64,6 +64,10 @@ public class User implements UserDetails {
         return email;               // email is the login identifier
     }
 
+    public String getDisplayUsername() {
+        return username;
+    }
+
     @Override
     public boolean isAccountNonExpired() {
         return true;
